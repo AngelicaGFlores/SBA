@@ -2,6 +2,21 @@ header {
     background-image: url(https://cdn.pixabay.com/photo/2020/05/13/05/32/concept-5165836_1280.jpg);
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 30%;
+    
+    
+}
+
+a{
+    color: white;
+} 
+
 #hero-section {
     background-image: url("https://cdn.pixabay.com/photo/2016/08/24/17/04/landscape-1617449_1280.png");
     height: 40rem;
