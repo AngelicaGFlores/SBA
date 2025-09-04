@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Accessible Design Co.</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<h1> Accessible Design Co.. !</h1>
+			<nav>
+				navigation bar
+				<ul>
+					<li><a href="#aboutUs">About Us</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#content">Content</a></li>
+					<li><a href="#form">Form</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main" role="main">
+			<section id="hero-section" >
+                <h2>hero Hero Section: Welcome </h2>
+				 A large, welcoming section with a background image,
+				an attention-grabbing heading, and a call-to-action button
+			</section>
+            <br>
+			<article id="aboutUs" class="AboutUs">
+                <h3>About Us Section:</h3>
+
+				 A brief description of the company, organized using
+				semantic tags
+			</article>
+            <br>
+
+			<section id="Services" class="Services" >
+                <h3>Services</h3>
+				services Services Section: A grid-based layout that showcases different
+				services the company offers, with icons or images and short
+				descriptions.
+			</section>
+            <br>
+            <section id="content" class="content" >
+                <h3>Content</h3>
+                Contact Form: A form for users to get in touch, including fields for
+				“Name,” “Email,” “Subject,” and “Message,” with accessible labels and
+				ARIA attributes.
+			</section>
+
+			<form id="form" class="form" action="">
+                <h3>Form</h3>
+			</form>
+
+            <br>
+		</main>
+        <br>
+
+		<footer>
+            <h4>footer</h4>
+			footer A footer with copyright information, social media links, and
+			contact details.
+		</footer>
+	</body>
+</html>

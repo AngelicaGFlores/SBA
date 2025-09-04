@@ -1,0 +1,7 @@
+Reflection Questions
+
+What accessibility challenges did you face, and how did you address them?
+
+How did you ensure that your design was responsive and accessible to all users?
+
+What tools or resources did you find most helpful during this project?
