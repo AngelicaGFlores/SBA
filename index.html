@@ -8,11 +8,11 @@
 	</head>
 	<body>
 		<header>
-			<h1> Accessible Design Co.. </h1>
-			<nav class="nav" >
+			<h1>Accessible Design Co..</h1>
+			<nav class="nav">
 				<ul>
 					<li><a href="#aboutUs">About Us</a></li>
-                    <li><a href="#aboutUs" id="menu-item">About Us </a></li>
+					<li><a href="#aboutUs" id="menu-item">About Us </a></li>
 					<li><a href="#Services">Services</a></li>
 					<li><a href="#content">Content</a></li>
 					<li><a href="#form">Form</a></li>
@@ -21,48 +21,87 @@
 		</header>
 
 		<main id="main" role="main">
-			<section id="hero-section" >
-                <h2>Welcome, it's a happy day to be Accessible! </h2>
-                <label for="button">Skip to Services</label>
-                <button><a href="#Services">Skip</a></button>
+			<section id="hero-section">
+				<h2>Welcome, it's a happy day to be Accessible!</h2>
+				<label for="button">Skip to Services</label>
+				<button><a href="#Services">Skip</a></button>
 			</section>
 
-            <br>
+			<br />
 
 			<article id="aboutUs" class="AboutUs">
-                <h3>About Us Section:</h3>
+				<h3>About Us:</h3>
 
-				 A brief description of the company, organized using
-				semantic tags
+				A brief description of the company, organized using semantic tags Lorem,
+				ipsum dolor sit amet consectetur adipisicing elit. Eaque minus, impedit
+				recusandae nesciunt accusamus a nisi quae architecto totam sed error
+				praesentium ipsa nam laboriosam corrupti ipsum voluptates consequuntur.
+				Sapiente! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+				Ipsum harum mollitia iure! Adipisci, soluta ut labore, perferendis
+				debitis vitae voluptatum nam quam quidem nesciunt, dolorem illo quos
+				eaque eius. Et. Lorem ipsum dolor sit, amet consectetur adipisicing
+				elit. Doloribus quaerat deserunt accusantium consequuntur aperiam
+				explicabo dolores, accusamus tenetur suscipit asperiores et vel corporis
+				ducimus architecto unde laboriosam deleniti consectetur inventore! Lorem
+				ipsum dolor sit amet consectetur adipisicing elit. Velit autem mollitia
+				sint tempora veniam! Quidem consequuntur, rerum sunt veritatis, ut in
+				similique delectus illum maiores aspernatur officia cupiditate ad
+				deleniti.
 			</article>
-            <br>
+			<br />
 
-			<section id="Services" class="Services" >
-                <h3>Services</h3>
-				services Services Section: A grid-based layout that showcases different
-				services the company offers, with icons or images and short
-				descriptions.
+			<div id="container" class="container">
+				<section id="serviceCard" class="services">
+					<h3>Rates</h3>
+					<img
+						id="iconImages"
+						src="https://cdn.pixabay.com/photo/2017/01/31/00/03/currency-2022440_1280.png"
+						alt="money icon sign" />
+					<p><span>$100 30 min</span></p>
+					<p><span>$500 2 hours</span></p>
+				</section>
+
+				<section id="serviceCard" class="Services">
+					<h3>Topics</h3>
+					<p>English</p>
+					<p>Math</p>
+				</section>
+
+				<section id="serviceCard" class="Services">
+					<h3>Support</h3>
+					<img
+						id="iconImages"
+						src="https://cdn.pixabay.com/photo/2021/10/11/00/59/website-6699086_1280.png"
+						alt="online icon sign" />
+					<p>Online</p>
+					<p>Or in person</p>
+				</section>
+			</div>
+
+			<br />
+
+			<section id="Contact">
+				<h2>Contact Us</h2>
+				<form action="">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+
+					<label for="name">Name:</label>
+					<input type="name" id="name" name="name" required />
+
+					<label for="message">Message:</label>
+					<input type="text" id="message" name="message" required />
+
+					<button type="submit">Send</button>
+				</form>
 			</section>
-            <br>
-            <section id="content" class="content" >
-                <h3>Content</h3>
-                Contact Form: A form for users to get in touch, including fields for
-				“Name,” “Email,” “Subject,” and “Message,” with accessible labels and
-				ARIA attributes.
-			</section>
-
-			<form id="form" class="form" action="">
-                <h3>Form</h3>
-			</form>
-
-            <br>
-		</main>
-        <br>
-
+	</main>
 		<footer>
-            <h4>footer</h4>
-			footer A footer with copyright information, social media links, and
-			contact details.
+			<div class="container-footer-grid">
+				<section aria-labelledby="footer-legal-heading">
+					<p>&copy; 2025 Accessible Design Co. All rights reserved.</p>
+				</section>
+			</div>
 		</footer>
 	</body>
 </html>
